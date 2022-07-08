@@ -1,0 +1,11 @@
+name=str(input("enter your name:"))
+housenumber=int(input("enter your housenumber:"))
+area=str(input("enter your area:"))
+city=str(input("enter your city:"))
+pincode=int(input("enter your pincode:"))
+print("name")
+print("h.no")
+print("area")
+print("city")
+print("pincode")
+ 
