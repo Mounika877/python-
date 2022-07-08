@@ -1,0 +1,13 @@
+name=str(input("enter your sudent name:"))
+regnumber=int(input("enter student regnumber:"))
+course=str(input("enter student course:"))
+sem=int(input("enter student sem:"))
+percentage=int(input("enter student percentage:"))
+Rankinyourclass=int(input("enter student rank:"))
+print("student name")
+print("student reg no")
+print("student course")
+print("student sem")
+print("student aggregate percentage")
+print("rank in your class")
+        
