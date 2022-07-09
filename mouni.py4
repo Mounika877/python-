@@ -1,0 +1,16 @@
+sub1=float(input("enter english marks:"))
+sub2=float(input("enter maths marks:"))
+sub3=float(input("enter computer science marks:"))
+sub4=float(input("enter pysics marks:"))
+sub5=float(input("enter chemistry:"))
+sum=sub1+sub2+sub3+sub4+sub5
+Average=sum/5
+Per=(sum/500)*100
+print(sub1)
+print(sub2)
+print(sub3)
+print(sub4)
+print(sub5)
+print(sum)
+print(Average)
+print(Per)
