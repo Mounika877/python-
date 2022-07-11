@@ -1,0 +1,3 @@
+n=int(input("enter any numbers:"))
+sum=n*(n+1)
+print("The sum of even numbers:{}".format(sum))
