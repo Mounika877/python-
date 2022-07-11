@@ -1,0 +1,4 @@
+name,city,pincode=input("enter your name,city,pin:").split()
+print("my name is:",name)
+print("my city is:",city)
+print("my pincode is:",pincode)
