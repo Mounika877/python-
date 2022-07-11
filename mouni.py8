@@ -1,0 +1,3 @@
+n=int(input("enter any numbers:"))
+sum=2*(n+1)
+print("The sum of odd numbers:{}".format(sum))
