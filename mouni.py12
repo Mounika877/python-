@@ -1,0 +1,6 @@
+days=int(input("enter no .of days:"))
+years=days//365
+rm_days=days%365
+months=rm_days//30
+days=rm_days%30
+print(years,months,days,sep=":")
