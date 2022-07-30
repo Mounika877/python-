@@ -1,0 +1,8 @@
+a=(85,79,75,85,90)
+b=len(a)
+sum1=0
+avg=0
+for i in a:
+    sum1=sum1+i
+avg=sum1//b
+print(avg)
