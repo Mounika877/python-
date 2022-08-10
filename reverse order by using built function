@@ -1,0 +1,9 @@
+num=int(input("enter any number:"))
+s=[]
+s.append(num)
+while num>=1:
+    num=int(input("enter any another number:"))
+    if num!=0:
+        s.append(num)
+    s.reverse()
+    print(s)
