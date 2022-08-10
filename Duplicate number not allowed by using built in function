@@ -1,0 +1,9 @@
+str=input("enter any string:")
+s=[]
+s.append(str)
+while str!="":
+    str=input("enter any other string:")
+    if str!="":
+        if str not in s:
+            s.append(str)
+print(s)
