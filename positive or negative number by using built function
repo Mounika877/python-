@@ -1,0 +1,8 @@
+num=int(input("enter any number:"))
+s=[]
+while num!="":
+    num=input("enter any other number:")
+    if num!="":
+        s.append(num)
+    s.sort()
+    print(s)
