@@ -1,0 +1,7 @@
+num=int(input("enter any number:"))
+s=[]
+while num!=0:
+   num=int(input("enter another number"))
+   s.append(num)
+s.sort()
+print(s)
