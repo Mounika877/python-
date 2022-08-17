@@ -1,0 +1,8 @@
+def arith(a,b):
+    print("sum",a+b)
+    print("sub",a-b)
+    print("mul",a*b)
+    print("div",a%b)
+arith(10,20)
+arith(2,3)
+
