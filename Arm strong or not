@@ -1,0 +1,14 @@
+
+def arm(a):
+  while a!=0:
+       sum=0
+       x=a
+       b=a%10
+       sum=sum+b**4
+       a=a//10
+  if sum==x:
+      print("Arm Strong number")
+  else:
+      print("Not Arm Strong number")
+x=int(input("enter any number:"))
+arm(x)
