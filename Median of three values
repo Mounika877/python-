@@ -1,0 +1,11 @@
+def median(a,b,c):
+    mn=min(a,b,c)
+    mx=max(a,b,c)
+    md=(a+b+c)-(mn+mx)
+    print("The number is median",md)
+num1=int(input("enter first number:"))
+num2=int(input("enter second number:"))
+num3=int(input("enter third number:"))
+median(num1,num2,num3)
+    
+    
